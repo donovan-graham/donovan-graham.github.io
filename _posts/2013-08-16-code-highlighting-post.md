@@ -20,6 +20,31 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 To modify styling and highlight colors edit `/assets/less/pygments.less` and compile `main.less` with your favorite preprocessor. Or edit `main.css` if that's your thing, the classes you want to modify all begin with `.highlight`.
 
+[Markdown](http://daringfireball.net/projects/markdown/)
+
+[Pygment lexers](http://pygments.org/docs/lexers/#lexers-for-web-related-languages-and-markup)
+
+[Python console output](http://pygments.org/docs/lexers/#pygments.lexers.agile.PythonConsoleLexer) `pycon`
+
+[Python source code](http://pygments.org/docs/lexers/#pygments.lexers.agile.PythonLexer) `python, py`
+
+[Bash scripts](http://pygments.org/docs/lexers/#pygments.lexers.shell.BashLexer) `bash, sh`
+
+[Basic console output](http://pygments.org/docs/lexers/#pygments.lexers.shell.BashSessionLexer) `console`
+
+[Plain html](http://pygments.org/docs/lexers/#pygments.lexers.web.HtmlLexer) `html`
+
+[Plain css](http://pygments.org/docs/lexers/#pygments.lexers.web.CssLexer) `css`
+
+[Plain javascript](http://pygments.org/docs/lexers/#pygments.lexers.web.JavascriptLexer) `js, javascript`
+
+[JSON](http://pygments.org/docs/lexers/#pygments.lexers.web.JsonLexer) `json`
+
+[SASS](http://pygments.org/docs/lexers/#pygments.lexers.web.SassLexer) `sass`
+
+
+
+
 {% highlight css %}
 #container {
     float: left;
