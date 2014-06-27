@@ -84,6 +84,11 @@ u'Rogue.S02E02.HDTV.x264-2HD.mp4'
 {% endhighlight %}
 
 
+To find other torrent properties ...  https://pythonhosted.org/transmissionrpc/reference/transmissionrpc.html#torrent-object
+Make sure your check if it exists, because newly added torrents need to fetch and initiate before info is available
+
+
+
 According to the docs, we can use either 'id' or 'hashString' values interchangeably to target the torrent.
 So starting and stoping the torrent downloading is simply this.
 
