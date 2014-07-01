@@ -10,7 +10,7 @@ share: true
 
 Recently I've been using QR codes a lot more, and I wanted to to learn a little bit more about them.  Specifically I wanted to know how to generate them and decode them (which I hope to cover in a later post). 
 
-Generating QR codes in python is a really simple matter. We need to install PIL (Python Imaging Library), which I preffer to just do with [pillow](https://pypi.python.org/pypi/Pillow) fork, and then [qrcode](https://pypi.python.org/pypi/qrcode).
+Generating QR codes in python is a really simple matter. We need to install PIL (Python Imaging Library), which I preffer to  do with the [pillow](https://pypi.python.org/pypi/Pillow) fork, and [qrcode](https://pypi.python.org/pypi/qrcode).
 
 {% highlight console %}
 $ pip install pillow qrcode
