@@ -46,7 +46,20 @@ img.save("p7_qr_code.png")
 
 Now fire up your favorite QR scanning app and give it a try.  A good app will recognise the data type and take the appropriate action e.g opening up a web browser for a link, or an email client for an email address.
 
-![QR Code]({{ site.url }}/images/p7_qr_code.png)
+![QR Code for url]({{ site.url }}/images/2014-07-01_url_qrcode.png)
+
+Update: 2014-07-02
+
+You can create a vCard using the correct data structure, here's an example.
+
+{% highlight python %}
+import qrcode
+data = 'BEGIN:VCARD\nVERSION:2.1\nFN:Donovan+Graham\nN:Graham;Donovan\nTITLE:Mr\nTEL;CELL;EMAIL;WORK;INTERNET:info@platform7.com\nURL:http://www.platform7.com\nADR;ORG:Platform7\nEND:VCARD\n'
+img = qrcode.make("data")
+img.save("vcard_qrcode.png")
+{% endhighlight %}
+
+<img src="{{ site.url }}/images/2014-07-01_vcard_qrcode.png" width="250" height="250" alt="QR Code for VCARD" />
 
 Links:
 
