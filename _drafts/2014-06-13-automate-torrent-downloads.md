@@ -25,6 +25,10 @@ TransmissionApp
 Download: https://www.transmissionbt.com/download/
 Docs: https://trac.transmissionbt.com/
 
+$ apt-get install transmission
+$ apt-get install transmission-daemon
+
+
 Transmission-rpc
 Docs: https://pythonhosted.org/transmissionrpc/
 
